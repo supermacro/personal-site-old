@@ -2,10 +2,10 @@ image: python:2.7-alpine
 
 pages:
   script:
+  - pip install -r requirements.txt
   - apk add --update git
   - git clone https://github.com/nairobilug/pelican-alchemy.git /data/pelican-alchemy
   - pelican-themes -i /data/pelican-alchemy
-  - pip install -r requirements.txt
   - pelican -s publishconf.py
   artifacts:
     paths:
