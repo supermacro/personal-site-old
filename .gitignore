@@ -1,2 +1,6 @@
 public/
 *.pyc
+
+*.pid
+
+output/
