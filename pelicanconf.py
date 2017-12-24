@@ -9,9 +9,11 @@ SITEURL = ''
 PATH = 'content'
 OUTPUT_PATH = 'public'
 
-TIMEZONE = 'Europe/Athens'
+TIMEZONE = 'US/Eastern'
 
 DEFAULT_LANG = u'en'
+
+THEME = 'pelican-alchemy/alchemy'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
