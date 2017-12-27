@@ -1,0 +1,21 @@
+
+{% macro render_tags(tags) %}
+  {% for tag in tags %}
+    <span>{{ tag }}</span>
+  {% endfor %}
+{%- endmacro %}
+
+{# creates a 40-word summary #}
+{% macro article_preview(article) -%}
+  <li class="article-preview">
+    <h2>
+      {{ article.title }}
+    </h2>
+    <div class="article-info">
+      {{ article.author }} on {{ render_tags(article.tags) }} | {{ article.date | strftime('%d %B %Y') }}
+    </div>
+    <div class="article-summary">
+      {{ ' '.join(article.content.split()[:40]) }}
+    </div>
+  </li>
+{%- endmacro %}
