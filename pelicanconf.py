@@ -1,17 +1,20 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
 
-AUTHOR = u'thedude'
-SITENAME = u'Example Pelican website using GitLab Pages!'
-SITEURL = ''
+AUTHOR = 'Giorgio Delgado'
+SITENAME = 'Example Pelican website using GitLab Pages!'
+SITEURL = 'http://localhost:8000'
+
+DESCRIPTION = 'Thoughts and ramblings from way up north in Canada, eh!'
 
 PATH = 'content'
 OUTPUT_PATH = 'public'
 
 TIMEZONE = 'US/Eastern'
 
-DEFAULT_LANG = u'en'
+DEFAULT_LANG = 'en'
+
+MENUITEMS = [('About', 'pages/about')]
 
 THEME = './theme'
 
