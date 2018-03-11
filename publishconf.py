@@ -13,6 +13,8 @@ from pelicanconf import *
 SITEURL = 'https://gdelgado14.gitlab.io/gDelgado14.gitlab.io/'
 RELATIVE_URLS = False
 
+PAGE_URL = 'pages/{slug}.html'
+
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
