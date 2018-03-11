@@ -1,4 +1,5 @@
 Title: In The Trenches
+Date: 2017-04-23
 Tags: entrepreneurship
 
 Despite my best intentions, it has been hard to publish a blog post once a week. I could put in a weak effort (get it?) and publish something of little substance simply to fill my quota. But I rather not do that.
@@ -41,11 +42,11 @@ So until you're presented with a unique idea, enjoy your life and don't stress i
 ### As an Employee
 My first foray into the world of startups was during an internship in 2014 at a small Toronto startup. The experience was odd (for reasons I can get into in another blog post), but I realized that I wanted to work with open-minded people looking to start interesting companies. Especially considering I had previously worked at two different monolithic companies with 100 year-old histories. After this internship, I thought I'd give starting my own startup a go.
 
-Long story short; it didn't work out. But I would do it again in a heartbeat as it took me down a very interesting road (read [here]({% link _posts/2016-04-24-bye-bykme.md %}) and [here]({% link _posts/2017-01-07-review.md %}) for more info).
+Long story short; it didn't work out. But I would do it again in a heartbeat as it took me down a very interesting road (read [here]({article}2016-04-24-bye-bykme.md) and [here]({article}2017-01-07-review.md) for more info).
 
 At this point, I hadn't yet realized how valuable it might be to apprentice under an experienced team of entrepreneurs.
 
-By the end of August 2016, I was stressed out, exhausted, broke, and lacking a general sense of direction with another company I was trying to start. My term at the [Next 36](https://www.nextcanada.com/next-36) was coming to an end and I had to decide what to do with my life. Despite being absolutely depleted, I knew I wanted to continue on this road. Given my [strong resentment]({% link _posts/2015-11-05-education.md %}) of the education system, I would not allow myself to return back to school. Thankfully, after chatting with a former Next 36er who had just recently founded a company, I was given the opportunity to help out to whatever extent possible.
+By the end of August 2016, I was stressed out, exhausted, broke, and lacking a general sense of direction with another company I was trying to start. My term at the [Next 36](https://www.nextcanada.com/next-36) was coming to an end and I had to decide what to do with my life. Despite being absolutely depleted, I knew I wanted to continue on this road. Given my [strong resentment]({article}2015-11-05-education.md) of the education system, I would not allow myself to return back to school. Thankfully, after chatting with a former Next 36er who had just recently founded a company, I was given the opportunity to help out to whatever extent possible.
 
 And here I am, as a Full-Stack engineer at [Homigo](http://www.homigo.com/). It's been a hell of a ride, but I couldn't be more certain that this was the right thing for me to do.
 

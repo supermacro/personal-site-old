@@ -1,4 +1,5 @@
 Title: I Suck at Math... For now
+Date: 2014-01-25
 Tags: tips
 
 So yesterday my roommate and I went grocery shopping. Now, before I explain, I have to state that I already knew how I've been at conducting mathematical operations, I just hadn't noticed the *extent* of this inability until this point.
