@@ -2,10 +2,14 @@
 # -*- coding: utf-8 -*- #
 
 AUTHOR = 'Giorgio Delgado'
-SITENAME = 'Example Pelican website using GitLab Pages!'
+SITENAME = 'Giorgio Delgado'
 SITEURL = 'http://localhost:8000'
 
-DESCRIPTION = 'Thoughts and ramblings from way up north in Canada, eh!'
+USE_FOLDER_AS_CATEGORY = False
+
+SUMMARY_MAX_LENGTH = 40
+
+DESCRIPTION = 'Thoughts, ramblings, and randomness.'
 
 PATH = 'content'
 OUTPUT_PATH = 'public'
@@ -16,7 +20,7 @@ DEFAULT_LANG = 'en'
 
 MENUITEMS = [('About', 'pages/about')]
 
-THEME = './theme'
+THEME = 'attila'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -26,16 +30,16 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('Pelican', 'http://getpelican.com/', 'pelican-thing'),
+         ('Python.org', 'http://python.org/', 'pythong-thing'),
+         ('Jinja2', 'http://jinja.pocoo.org/', 'jinja-thing'),
+         ('You can modify those links in your config file', '#', 'other-thing'),)
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = 5
+DEFAULT_PAGINATION = 3
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
