@@ -18,7 +18,7 @@ TIMEZONE = 'US/Eastern'
 
 DEFAULT_LANG = 'en'
 
-MENUITEMS = [('About', 'pages/about')]
+# MENUITEMS = [('About', 'pages/about')]
 
 THEME = 'attila'
 
@@ -39,7 +39,7 @@ LINKS = (('Pelican', 'http://getpelican.com/', 'pelican-thing'),
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = 3
+DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
