@@ -1,5 +1,5 @@
 Title: Be Adventurous
-Tags: posts
+Tags: posts, forty-eight
 
 [![Does This count As A Selfie?](http://giorgiodelgado.ca/wp-
 content/uploads/2014/02/Foto-2-2-2014-4-02-34-PM-e1391402178223.jpg)](http://giorgiodelgado.ca

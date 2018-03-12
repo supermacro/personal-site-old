@@ -1,9 +1,8 @@
 Title: My Reading List
-Tags: books
+Tags: books, forty-eight
 
 Like previously mentioned, [I'm all about continual self
-improvement](http://giorgiodelgado.ca/the-starbucks-alternative.html "The
-Starbucks Alternative"). But much like the show "Hoarders", I too have a
+improvement](http://giorgiodelgado.ca/the-starbucks-alternative.html). But much like the show "Hoarders", I too have a
 problem with letting things go. In my case, however, it's information. The
 second I see a useful link, newsletter, or potential tap for knowledge I
 immediately note it down. For links, I save them into my reading list.

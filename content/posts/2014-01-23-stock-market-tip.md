@@ -1,6 +1,6 @@
 Title: Steer Clear of Markets
 Date: 2014-01-23
-Tags: posts
+Tags: posts, forty-eight
 
 > No matter how many other people want to buy a stock, you should buy only if the stock is a cheap way to own a desirable business. - Jason Zweig, The Intelligent Investor
 

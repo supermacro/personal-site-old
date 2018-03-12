@@ -1,5 +1,5 @@
 Title: Mentally Exhausted
-Tags: music post format audio
+Tags: music, forty-eight
 
 I've been running on very little sleep, and my mental gas tank is near empty.
 Add a mild hangover to the mix and voila; the ultimate writer's block.

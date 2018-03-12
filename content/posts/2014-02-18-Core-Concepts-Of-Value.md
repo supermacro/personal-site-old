@@ -1,5 +1,5 @@
 Title: Core Concepts Of Value
-Tags: valuation
+Tags: valuation, forty-eight
 
 My [recently added tab, _Valuation_](http://giorgiodelgado.ca/valuation
 "Valuation"), was created for the purpose of reciting what I have learned so

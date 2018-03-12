@@ -1,5 +1,5 @@
-Title: My Year So Far [ In Haiku ] 
-Tags: posts
+Title: My Year So Far [ In Haiku ]
+Tags: posts, forty-eight
 
 I didn't want to spend too much time on my blog today so I felt like being as
 creative as possible with the least amount of effort.

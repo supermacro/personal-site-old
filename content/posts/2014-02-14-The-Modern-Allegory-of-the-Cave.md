@@ -1,5 +1,5 @@
 Title: The Modern Allegory of the Cave
-Tags: books posts
+Tags: books posts, forty-eight
 
 [![LBiXDH3](http://giorgiodelgado.ca/wp-
 content/uploads/2014/02/LBiXDH3-200x300.jpg)](http://giorgiodelgado.ca/wp-
