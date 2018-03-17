@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'https://gdelgado14.gitlab.io/'
+SITEURL = 'https://gdelgado.ca/'
 RELATIVE_URLS = False
 
 PAGE_URL = 'pages/{slug}.html'
