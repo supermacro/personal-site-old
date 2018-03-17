@@ -4,7 +4,7 @@ pages:
   script:
   - pip install -r requirements.txt
   - apk add --update git
-  - git clone https://github.com/arulrajnet/attila.git /data/attila
+  - git clone https://github.com/gDelgado14/attila.git /data/attila
   - pelican-themes -i /data/attila
   - pelican -s publishconf.py
   artifacts:
