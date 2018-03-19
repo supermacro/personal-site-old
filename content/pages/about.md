@@ -6,6 +6,8 @@ I studied Economics at Wilfrid Laurier University and now I'm looking to leverag
 
 Here are some interesting links I'd like to share:
 
+[Facebook is a surveillance company](https://www.reddit.com/r/technology/comments/85eri3/edward_snowden_facebook_is_a_surveillance_company/)
+
 [Kayfabe](https://edge.org/response-detail/11783)
 
 [The Last Answer](http://www.thrivenotes.com/the-last-answer/)
