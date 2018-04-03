@@ -11,11 +11,11 @@ The democratization of the web platform has brought about an influx of JS altern
 
 ## JavaScript Has Reached Its Zenith
 
-It's easy to forget JS's early history. [The language was built by one person in just a few days](https://en.wikipedia.org/wiki/JavaScript#Beginnings_at_Netscape). I don't think Brendan Eich imagined JS would become such a central player in the evolution of the web. Nor did he intend it to be the language for use in basically every type of application. But browsers have over-time come to dominate the software landscape making JS the default language for reaching millions of users. Economics, not JavaScript's inherent features, are what lead it to become so prominent. There was no alternative way to add interactivity and delight to web pages. JS had a monopoly on front-end languages.
+It is easy to forget JS's early history. [The language was built by one person in just a few days](https://en.wikipedia.org/wiki/JavaScript#Beginnings_at_Netscape) without the knowledge that the "internet browser" would eventually dominate the software landscape, thus making JS the default language for reaching millions of users. **Economics, not JavaScript's inherent features, are what lead it to become so prominent**. There was no alternative way to add interactivity and delight to web pages. JS had a monopoly on front-end languages.
 
-Since its inception, JS has continued to evolve; pushing the limits of what could be accomplished while also improving the developer experience of the language by leaps and bounds. We're spoiled in this day and age when dealing with asynchronicity, but we all remember a time when callback-hell was the norm. The barrier to creating complex apps has progressively declined.
+Since its inception, JS has continued to evolve; pushing the limits of what could be accomplished while also improving the ergonomics of the language by leaps and bounds. We're spoiled in this day and age when dealing with asynchronicity, but we all remember a time when callback-hell was the norm. The barrier to creating complex apps has progressively declined.
 
-But there are only so much changes one can make, and features one can add to a language, before any [additions become only marginally beneficial](https://www.britannica.com/topic/diminishing-returns). This is simply an economic law.
+But there are only so much changes one can make, and features one can add to a language, before any [additions become only marginally beneficial](https://www.britannica.com/topic/diminishing-returns). This is simply an economic law as real as the gravitational force.
 
 I think the last game-changing update to JS was `async / await`. Everything after that has been nice, but not revolutionary. In essence; JS will only get marginally better, but will stay fundamentally as it is for the foreseeable future.
 
@@ -49,6 +49,12 @@ The prolific use of `any` in TypeScript is saddening. By using `any` you have th
 
 I think this is partly because of how fast the JS ecosystem moves: For every typedef written, 3 new packages come out and one week later the aforementioned typedef becomes outdated due to a major version bump (I am only estimating, so please correct me if I am way off). With this sort of pace it's impossible to keep up. The rationale becomes, "I'll fix the types later, but for now I'll just say everything is an `any`."
 
+Or how about this?
+
+![wtf typescript](https://i.imgur.com/Mu4MJiI.png)
+
+> So not only are typedefs either just wrong and littered with `any`, but they're also outdated. Sometimes by several versions.
+
 
 So here we are with a plethora of very large JS projects, and the current solution is to throw a type system on top of a dynamic language. This makes total sense for projects that are too large to undergo a total rewrite ... But what about all the smaller projects? Why not just use a whole other (better) language altogether?
 
@@ -58,7 +64,7 @@ Nowadays there is lots of talk about functional programming. Many have realized 
 
 This shift isn't inherently bad for JS as it has FP features, however, most JS programmers have no idea how to code functionally.
 
-Further, much like in typescript, if you allow for escape hatches, you will use escape hatches. That is to say; if you can use a `for` loop to get a feature out quicker than thinking ahead of time of a more functional (and longer lasting) approach, then you'll eventually succumb to the temptation. Again, this is economics at play: It's much easier to follow the path of least resistance.
+Further, much like in typescript, if you allow for escape hatches, you will use escape hatches. That is to say; if you can use a `for` loop to get a feature out quicker than thinking ahead of time of a more functional (and longer lasting) approach, then you'll eventually succumb to the temptation. Again, this is economics at play: It's much easier to follow the path of least resistance, and writing code imperatively generally requires less consideration.
 
 
 ## Moving away from JS
@@ -78,7 +84,7 @@ That's not to say you can't write complex software in JS. It's just way harder t
 
 These are the sorts of things you have to deal with when writing apps in JS:
 
-- No type system (and if you use Flow and JS, have fun dealing with their verbosity - not to mention the insidious usage of `any`)
+- No type system (and if you use Flow and TS, have fun dealing with their verbosity - not to mention the insidious usage of `any`)
 - Quirks around the language (don't use `==` or you'll implicitly coerce types! Don't use `arguments` as it's not actually an array! What does `this` mean in this context?)
 - Highly fragmented package ecosystem. There are **many** alternative packages to solving the same problem:
     - "Oh you want to unit test? Well, just use mocha + chai + sinon. Or alternatively Jest. Or Ava. Or Tape. Or ..."
@@ -112,7 +118,7 @@ You also don't have a compiler in JS to provide guarantees that the package you 
 
 So the packages you download from npm are basically at your own peril. This is why you need a downloads counter in npm. The logic being, "If others are downloading this package, then surely it's safe to use". But obviously this is not always the case as edge cases often take a long time to surface.
 
-This is in stark contrast to any of the package ecosystems in strictly typed languages (crates.io, Hackage, Elm-Package, etc...)
+This is in stark contrast to any of the package ecosystems in strictly typed languages (crates.io, Hackage, Elm-Package, etc...). You don't need a downloads counter because you know the package had to be compiled before even landing on the package ecosystem. Consider pre-upload compilation a sort of litmus test which sets a consistent expectation of quality across the board.
 
 Another benefit with these other languages is that they are sustained by communities consisting of very skilled developers (the influx of devs coming from code bootcamps doesn't help alleviate the code quality problem plaguing npm). That's not to say that you don't have amazing devs in JS-land (you do), but the distribution of talent in JS has a massive standard deviation.
 
@@ -124,5 +130,8 @@ In the back-end ecosystem, there is complete freedom to choose whichever languag
 This is known as [equilibrium in economics](https://en.wikipedia.org/wiki/Economic_equilibrium) and it's about time we reached it in the front end development ecosystem.
 
 
+---
+
+[Comments on HN](https://news.ycombinator.com/item?id=16740785)
 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
