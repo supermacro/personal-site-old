@@ -1,3 +1,5 @@
-pelican
+pelican==3.7.1
 markdown
 typogrify
+webassets
+libsass

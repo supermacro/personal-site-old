@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <!-- https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- http://mrsenko.com/blog/atodorov/2016/05/05/conditional-include-in-jinja2-and-pelican/ -->
+    {% assets filters="sass", output="css/style.min.css", "css/theme.sass" %}
+        <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
+    {% endassets %}
+    
+    
+    <!--
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/normalize.css" media="screen" />
+    -->
+
+    <title>Giorgio Delgado</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <h1>Hello! Giorgio</h1>
+
+    
+    
+    <!-- show custom page for ie -->
+</body>
+</html>

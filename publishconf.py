@@ -10,6 +10,9 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
+PLUGIN_PATHS = ['/Users/giorgiodelgado/code/virtualenvs/personal-blog/bin/']
+PLUGINS = ['assets']
+
 SITEURL = 'https://gdelgado.ca/'
 RELATIVE_URLS = False
 
