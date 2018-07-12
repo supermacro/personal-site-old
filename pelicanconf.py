@@ -22,6 +22,9 @@ DEFAULT_LANG = 'en'
 
 THEME = './theme'
 
+PLUGIN_PATHS = ['/Users/giorgiodelgado/code/virtualenvs/personal-blog/bin/']
+PLUGINS = ['assets']
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
