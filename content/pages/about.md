@@ -2,7 +2,11 @@ Title: About
 
 I studied Economics at Wilfrid Laurier University and now I'm looking to leverage technology to help make the world a better place.
 
-[LinkedIn](https://ca.linkedin.com/in/giorgiodelgado)
+Currently I work at [Setter](https://setter.com/) as part of the Software Engineering team.
+
+p.s. We're [hiring](https://angel.co/setter-home-services/jobs) ;)
+
+---
 
 Here are some interesting links I'd like to share:
 
