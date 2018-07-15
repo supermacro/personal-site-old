@@ -1,0 +1,7 @@
+<footer>
+    <div class="external-links">
+        {% for link, url in SOCIAL %}
+        <a href="{{ url }}" target="_blank"><img src="{{ SITEURL }}/theme/assets/{{ link | lower }}.svg" /></a>
+        {% endfor %}
+    </div>
+</footer>

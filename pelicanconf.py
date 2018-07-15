@@ -22,7 +22,7 @@ DEFAULT_LANG = 'en'
 
 THEME = './theme'
 
-PLUGIN_PATHS = ['/Users/giorgiodelgado/code/virtualenvs/personal-blog/bin/']
+PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['assets']
 
 # Feed generation is usually not desired when developing
@@ -39,8 +39,9 @@ LINKS = (('Pelican', 'http://getpelican.com/', 'pelican-thing'),
          ('You can modify those links in your config file', '#', 'other-thing'),)
 
 # Social widget
-SOCIAL = (('twitter', 'https://twitter.com/_gdelgado'),
-          ('github', 'https://github.com/gDelgado14'))
+SOCIAL = (('Twitter', 'https://twitter.com/_gdelgado'),
+          ('GitHub', 'https://github.com/gDelgado14'),
+          ('LinkedIn', 'https://linkedin.com/in/giorgiodelgado'))
 
 DEFAULT_PAGINATION = 10
 

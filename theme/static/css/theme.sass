@@ -1,0 +1,145 @@
+// FIXME: this is using regular CSS import.
+// how to bundle normalize.css into single compiled
+// CSS file
+//
+// consider using https://github.com/JohnAlbin/normalize-scss
+@import "normalize.css"
+
+// example of variable
+// $primary-color: #333
+
+// example of variable usage
+// background-color: $primary-color    
+
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Noto Serif', serif;
+
+html
+    box-sizing: border-box
+    height: 100%
+
+*, *:before, *:after
+    box-sizing: inherit
+
+body
+    font-size: 20px
+
+    display: grid
+    grid-template-rows: 2fr 3fr 1fr
+
+    height: 100%
+    width: 100vw
+    padding-right: 15%
+    padding-left: 15%
+    
+h1, h2, h3, h4, h5, h6
+    font-family: 'Open Sans', sans-serif
+
+p
+    font-family: 'Noto Serif', serif
+
+a
+    text-decoration: none
+
+.tag-link
+    .tag-container
+        font-size: 80%
+        font-family: 'Open Sans', sans-serif
+        font-weight: bold
+
+        border: 1px solid #ebebeb
+        border-radius: 2px
+
+        transition: border .2s, color .2s
+
+        padding: .2em .8em
+        color: #86888b
+        
+    .tag-container:visited
+        color: #86888b
+
+    .tag-container:hover
+        border: 1px solid #8e7dfe // #ff8000
+        color: #8e7dfe // #ff8000
+
+
+    
+///////////////////////
+// article.html
+//
+.article-content
+    max-width: 55rem
+    line-height: 1.75rem
+
+    img
+        max-width: 50%
+//
+///////////////////////
+
+
+///////////////////////
+// index.html
+// 
+.latest-article
+    .article-title
+        color: #000
+    
+    .article-title > a:visited
+        color: #000
+
+    .article-meta
+        font-family: 'Open Sans', sans-serif
+        font-size: .8em
+
+    .article-link
+        font-style: italic
+        color: #000
+        border-bottom: 1px solid #86888b
+
+
+//
+///////////////////////
+
+
+///////////////////////
+// include/header.html
+//
+.header-main > h1
+    text-align: center
+    color: #8e7dfe
+    font-style: italic
+
+.header-navigation > ul
+    display: flex
+    justify-content: center
+    padding: 0
+    
+.header-navigation > ul > li
+    list-style-type: none
+    display: inline-block
+    margin: .5rem
+
+.header-item
+    font-family: 'Open Sans', sans-serif
+    font-weight: bold
+    color: #000
+
+.header-item:visited
+    color: #000
+//
+///////////////////////
+
+///////////////////////
+// include/footer.html
+footer
+    padding: 2em 2em .75em 2em
+
+.external-links
+    display: flex
+    justify-content: center
+
+.external-links > a
+    margin: .5rem
+
+//
+///////////////////////

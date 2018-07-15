@@ -1,0 +1,20 @@
+
+<div>
+    <a class="header-main" href="{{ SITEURL }}">
+        <h1>{{ SITENAME }}</h1>
+    </a>
+    
+    <nav class="header-navigation">
+        <ul>
+            {% for page in pages %}
+                <li>
+                    <a class="header-item" href="{{ page.url }}">{{ page.title }}</a>
+                </li>
+            {% endfor %}
+    
+            <li>
+                <a class="header-item" href="{{ SITEURL }}/archives" >Archives</a>
+            </li>
+        </ul>
+    </nav>
+</div>

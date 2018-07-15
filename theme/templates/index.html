@@ -1,34 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    
-    <!-- https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- http://mrsenko.com/blog/atodorov/2016/05/05/conditional-include-in-jinja2-and-pelican/ -->
-    {% assets filters="sass", output="css/style.min.css", "css/theme.sass" %}
-        <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
-    {% endassets %}
-    
-    
-    <!--
-        <link rel="stylesheet" href="{{ SITEURL }}/theme/normalize.css" media="screen" />
-    -->
+{% extends "base.html" %}
 
-    <title>Giorgio Delgado</title>
-</head>
-<body>
-    <nav>
-        <ul>
-            <li>Home</li>
-            <li>About</li>
-        </ul>
-    </nav>
-    <h1>Hello! Giorgio</h1>
+{% block content %}
+<div class="latest-article">
+    <h3>Latest Post:</h2>
+    
+    <h2 class="article-title">
+        <a href="{{ articles[0].url }}">
+            {{ articles[0].title }}
+        </a>
+    </h2>
 
+    <div class="article-meta">
+        {{ articles[0].date | strftime('%B') }} {{ articles[0].date.day }},
+        {{ articles[0].date.year }}
+        in
+        <a class="tag-link" href="{{ SITEURL }}/tag/{{ articles[0].tags[0] }}">
+            <span class="tag-container">
+                {{ articles[0].tags[0] }}
+            </span>
+        </a>
+    </div>
     
-    
-    <!-- show custom page for ie -->
-</body>
-</html>
+    <p>
+        {{ articles[0].summary | striptags }}
+    </p>
+
+    <a class="article-link" href="{{ articles[0].url }}">Continue Reading ...</a>
+</div>
+
+{% endblock %}
