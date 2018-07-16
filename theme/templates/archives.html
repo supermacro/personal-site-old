@@ -1,3 +1,14 @@
+{% extends "base.html" %}
 
-<p>helloooo</p>
+{% block title %}Archives | {% endblock %}
 
+{% block content %}
+    {% for tag, articles in tags %}
+        <h2>{{ tag }}</h2>
+        <ul>
+            {% for article in articles | sort(reverse=True, attribute='date') %}
+            <li>{{ article.title }}</li>
+            {% endfor%}
+        </ul>
+    {% endfor %}
+{% endblock %}
