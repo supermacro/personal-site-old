@@ -3,12 +3,16 @@
 {% block title %}Archives | {% endblock %}
 
 {% block content %}
+<div class="archives-container">
     {% for tag, articles in tags %}
-        <h2>{{ tag }}</h2>
-        <ul>
-            {% for article in articles | sort(reverse=True, attribute='date') %}
-            <li>{{ article.title }}</li>
-            {% endfor%}
-        </ul>
+        <div class="tag-section">
+            <h2>{{ tag }}</h2>
+            <ul>
+                {% for article in articles | sort(reverse=True, attribute='date') %}
+                <li>{{ article.title }}</li>
+                {% endfor%}
+            </ul>
+        </div>
     {% endfor %}
+</div>
 {% endblock %}
