@@ -1,5 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
+from __future__ import unicode_literals
+
+
+import os
+import sys
+
+sys.path.append(os.curdir)
+
+from jinjafilters import datetimeformat
 
 AUTHOR = 'Giorgio Delgado'
 SITENAME = 'Giorgio Delgado'
@@ -24,6 +33,10 @@ THEME = './theme'
 
 PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['assets']
+
+JINJA_FILTERS = {
+    'datetimeformat': datetimeformat
+}
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

@@ -43,6 +43,10 @@ p
 a
     text-decoration: none
 
+
+
+///////////////////////
+// reusable css
 .tag-link
     .tag-container
         font-size: 80%
@@ -63,12 +67,44 @@ a
     .tag-container:hover
         border: 1px solid $secondary-color
         color: $secondary-color
+//
+///////////////////////
+
 
 
     
 ///////////////////////
 // article.html
 //
+.article-date
+    font-family: 'Open Sans', sans-serif
+    margin-bottom: .7em
+
+.article-tags
+    margin-bottom: 2em
+
+    img
+        position: relative
+        top: .2em
+
+    p
+        display: inline
+        font-family: 'Open Sans', sans-serif
+        
+    ul
+        display: inline-block
+        padding: 0
+        margin: 0
+    
+        .tag-item
+            display: inline-block
+            list-style-type: none
+
+.article-container
+    .separator
+        height: 8px
+        width: 100%
+
 .article-content
     max-width: 55rem
     line-height: 1.75rem
@@ -97,8 +133,6 @@ a
         font-style: italic
         color: #000
         border-bottom: 1px solid $secondary-color
-
-
 //
 ///////////////////////
 
@@ -120,8 +154,12 @@ a
 //
 .header-main > h1
     text-align: center
-    color: $secondary-color
+    color: #000
     font-style: italic
+    transition: color .2s
+
+.header-main > h1:hover
+    color: $secondary-color
 
 .header-navigation > ul
     display: flex
@@ -142,6 +180,7 @@ a
     color: #000
 //
 ///////////////////////
+
 
 ///////////////////////
 // include/footer.html

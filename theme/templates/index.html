@@ -1,3 +1,5 @@
+{% import 'macros.html' as m %}
+
 {% extends "base.html" %}
 
 {% block content %}
@@ -11,14 +13,7 @@
     </h2>
 
     <div class="article-meta">
-        {{ articles[0].date | strftime('%B') }} {{ articles[0].date.day }},
-        {{ articles[0].date.year }}
-        in
-        <a class="tag-link" href="{{ SITEURL }}/tag/{{ articles[0].tags[0] }}">
-            <span class="tag-container">
-                {{ articles[0].tags[0] }}
-            </span>
-        </a>
+        {{ articles[0].date | datetimeformat }} in {{ m.tag_link(articles[0].tags[0]) }}
     </div>
     
     <p>
