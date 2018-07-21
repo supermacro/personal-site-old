@@ -2,6 +2,9 @@
 public/
 *.pyc
 
+# Dockerfile used to test .gitlab-ci.yml configurations locally
+Dockerfile
+
 *.pid
 
 output/
