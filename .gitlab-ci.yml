@@ -1,8 +1,12 @@
-image: python:2.7-alpine
+image: ruby:2.5
 
 pages:
   script:
-  - sudo gem install sass
+  - apt-get update
+  - apt-get -y upgrade
+  - apt-get install -y apt-utils python python-pip
+  - pip install -r requirements.txt
+  - gem install sass
   - pip install -r requirements.txt
   - pelican -s publishconf.py
   artifacts:
