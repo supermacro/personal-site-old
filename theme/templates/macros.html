@@ -1,6 +1,6 @@
 
 {% macro tag_link(tag) -%}
-<a class="tag-link" href="{{ SITEURL }}/tag/{{ tag }}">
+<a class="tag-link" href="{{ SITEURL }}/{{ tag.url }}">
     <span class="tag-container">
         {{ tag }}
     </span>
