@@ -9,7 +9,7 @@
         {% for tag, articles in tags | tagsort %}
             <div class="tag-section">
                 <h3 class="tag-name">
-                    <a href="{{ SITEURL }}/tag/{{ tag }}">
+                    <a href="{{ SITEURL }}/{{ tag.url }}">
                         {{ tag }}
                     </a>
                 </h2>
