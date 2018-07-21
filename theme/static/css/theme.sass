@@ -1,0 +1,330 @@
+// FIXME: this is using regular CSS import.
+// how to bundle normalize.css into single compiled
+// CSS file
+//
+// consider using https://github.com/JohnAlbin/normalize-scss
+@import "normalize.css"
+
+// example of variable
+// $primary-color: #333
+
+// example of variable usage
+// background-color: $primary-color    
+
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Noto Serif', serif;
+
+$secondary-color: #8e7dfe
+
+html
+    box-sizing: border-box
+    height: 100%
+
+*, *:before, *:after
+    box-sizing: inherit
+
+body
+    font-size: 20px
+
+    display: grid
+    grid-template-rows: 2fr 3fr 1fr
+
+    height: 100%
+    width: 100vw
+    padding-right: 15%
+    padding-left: 15%
+
+h1, h2, h3, h4, h5, h6
+    font-family: 'Open Sans', sans-serif
+
+p
+    line-height: 1.5em
+    font-family: 'Noto Serif', serif
+
+a
+    text-decoration: none
+
+
+blockquote
+    border-left: $secondary-color 5px solid
+    margin-left: 0
+    padding-left: 2em
+
+    p
+        font-style: italic
+    
+ul
+    li
+        list-style-type: circle
+
+
+
+///////////////////////
+// reusable css
+.tag-link
+    .tag-container
+        font-size: 80%
+        font-family: 'Open Sans', sans-serif
+        font-weight: bold
+
+        border: 1px solid #ebebeb
+        border-radius: 2px
+
+        transition: border .2s, color .2s
+
+        padding: .2em .8em
+        color: #86888b
+        
+    .tag-container:visited
+        color: #86888b
+
+    .tag-container:hover
+        border: 1px solid $secondary-color
+        color: $secondary-color
+//
+///////////////////////
+
+
+
+    
+///////////////////////
+// article.html
+//
+.article-container
+    .article-date
+        font-family: 'Open Sans', sans-serif
+        margin-bottom: .7em
+
+    .article-tags
+        margin-bottom: 2em
+
+        img
+            position: relative
+            top: .2em
+
+        p
+            display: inline
+            font-family: 'Open Sans', sans-serif
+            
+        ul
+            display: inline-block
+            padding: 0
+            margin: 0
+        
+            .tag-item
+                display: inline-block
+                list-style-type: none
+
+    .separator
+        height: 8px
+        width: 100%
+
+    .article-content
+        margin-left: auto
+        margin-right: auto
+        max-width: 55rem
+        line-height: 1.75rem
+
+        a
+            color: #000
+            border-bottom: 1px solid $secondary-color
+            
+        h2
+            margin-top: 1.5em
+
+        h4
+            margin-top: 2em
+            margin-bottom: .5em
+            
+        img
+            max-width: 50%
+//
+///////////////////////
+
+
+///////////////////////
+// index.html
+// 
+.latest-article
+    .article-title
+        color: #000
+    
+    .article-title > a:visited
+        color: #000
+
+    .article-meta
+        font-family: 'Open Sans', sans-serif
+        font-size: .8em
+
+    .article-link
+        font-style: italic
+        color: #000
+        border-bottom: 1px solid $secondary-color
+//
+///////////////////////
+
+
+    
+///////////////////////
+// page.html
+//   
+.page-container
+    // FIXME: the anchor tag styles are being copy-pasted in several places :(
+    a
+        color: #000
+        border-bottom: 1px solid $secondary-color
+
+
+    ///////////////////////
+// archives.html
+// 
+.archive-heading
+    width: 50%
+    text-align: center
+    margin-left: auto
+    margin-right: auto
+
+
+.archives-container
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    column-gap: 1.5em
+    row-gap: 1.5em
+
+    .tag-name
+        font-size: 1.2em
+
+        a, a:visited
+            color: #000
+
+    .tag-list
+        padding: 0
+
+        li
+            list-style-type: none
+
+        li a:visited
+            color: #000
+
+        li div
+            color: #000
+            font-family: 'Open Sans', sans-serif
+            font-size: .85em
+
+        li a:hover
+            color: #d82929
+
+        li:not(:last-child)
+            margin-bottom: 1.4em
+//
+///////////////////////
+
+
+    
+///////////////////////
+// tag.html
+// 
+.single-tag-container
+    .article-info
+        a
+            font-family: 'Open Sans', sans-serif
+            font-size: .85em
+            color: #000
+
+        a:visited
+            color: #000
+
+    .article-info:not(:last-child)
+        margin-bottom: .7em
+//
+///////////////////////
+
+
+
+
+///////////////////////
+// include/header.html
+//
+.header-main > h1
+    text-align: center
+    color: #000
+    font-style: italic
+    transition: color .2s
+
+.header-main > h1:hover
+    color: $secondary-color
+
+.header-navigation > ul
+    display: flex
+    justify-content: center
+    padding: 0
+    
+.header-navigation > ul > li
+    list-style-type: none
+    display: inline-block
+    margin: .5rem
+
+.header-item
+    font-family: 'Open Sans', sans-serif
+    font-weight: bold
+    color: #000
+
+.header-item:visited
+    color: #000
+//
+///////////////////////
+
+
+///////////////////////
+// include/footer.html
+footer
+    padding: 2em 2em .75em 2em
+
+    .external-links
+        display: flex
+        justify-content: center
+
+    .external-links > a
+        margin: .5rem
+
+    .copyright
+        text-align: center
+        font-family: 'Open Sans', sans-serif
+        margin-top: 0
+        margin-bottom: 0
+
+    .copyright a
+        // FIXME: the anchor tag styles are being copy-pasted in several places :(
+        color: #000
+        border-bottom: 1px solid $secondary-color
+//
+///////////////////////
+
+
+
+
+@media screen and (max-width: 1000px)
+    body
+        padding-left: 10%
+        padding-right: 10%
+
+
+@media screen and (max-width: 630px)
+    body
+        padding-left: 5%
+        padding-right: 5%
+
+
+@media screen and (max-width: 600px)
+    body
+        padding-left: 2%
+        padding-right: 2%
+
+    .archives-container
+        grid-template-columns: 1fr 1fr
+
+
+@media screen and (max-width: 600px)
+    .archives-container
+        grid-template-columns: 1fr
+

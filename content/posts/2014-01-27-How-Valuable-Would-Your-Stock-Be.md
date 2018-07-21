@@ -1,6 +1,6 @@
 Title: How Valuable Would Your Stock Be?
 Date: 2014-01-27
-Tags: tips, forty-eight
+Tags: forty-eight
 
 Yesterday I was performing a very physically demanding workout routine when I realized how much negativity buzzed in my head, "this hurts too much", "you can stop whenever you want", etc. In order to fight through this negativity I would tell myself, "my words have meaning, my words have meaning, my words have meaning". This inspired me to expand on what I mean by this:
 

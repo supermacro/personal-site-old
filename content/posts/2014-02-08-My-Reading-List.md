@@ -1,5 +1,5 @@
 Title: My Reading List
-Tags: books, forty-eight
+Tags: forty-eight
 
 Like previously mentioned, [I'm all about continual self
 improvement](http://giorgiodelgado.ca/the-starbucks-alternative.html). But much like the show "Hoarders", I too have a

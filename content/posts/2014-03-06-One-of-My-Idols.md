@@ -1,5 +1,5 @@
 Title: One of My Idols
-Tags: posts
+Tags: forty-eight
 
 Someone who has inspired me to become the best possible me is Emerson Spartz.
 The guy's simply unbelievable and was destined for greatness from the very

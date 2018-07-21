@@ -1,5 +1,5 @@
 Title: The Starbucks Alternative
-Tags: posts, forty-eight
+Tags: forty-eight
 
 
 

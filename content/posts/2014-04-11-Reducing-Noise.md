@@ -1,5 +1,5 @@
 Title: Reducing Noise
-Tags: posts
+Tags: forty-eight
 
 I've slowly come to the realization that true innovative thought cannot come
 until we've removed distractions from our lives, and living in an age where

@@ -1,5 +1,5 @@
 Title: New Month, New Vision
-Tags: posts
+Tags: forty-eight
 
 With my four month internship coming to an end, I have begun to rethink my
 priorities as well as my goals.

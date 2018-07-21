@@ -1,5 +1,5 @@
 Title: Empathizing
-Tags: posts
+Tags: forty-eight
 
 We're all too quick to judge in this day and age. Perception is largely based
 on how we market ourselves in social networks with the intention of appealing

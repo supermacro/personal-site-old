@@ -1,0 +1,26 @@
+{% import 'macros.html' as m %}
+
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="article-container">
+        <h2 id="title">{{ article.title }}</h2>
+        <div class="article-date">{{ article.date | datetimeformat }}</div>
+        
+        <div class="article-tags">
+            <ul>
+                {% for tag in article.tags %}
+                <li class="tag-item">
+                    {{ m.tag_link(tag) }}
+                </li>            
+                {% endfor %}
+            </ul>
+        </div>
+
+        <img class="separator" src="{{ SITEURL }}/theme/assets/article-div.svg">
+
+        <main class="article-content">
+            {{ article.content }}
+        </main>
+    </div>
+{% endblock%}

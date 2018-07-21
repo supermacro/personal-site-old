@@ -1,5 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
+from __future__ import unicode_literals
+
+
+import os
+import sys
+
+sys.path.append(os.curdir)
+
+from jinjafilters import datetimeformat, tagsort
 
 AUTHOR = 'Giorgio Delgado'
 SITENAME = 'Giorgio Delgado'
@@ -7,7 +16,7 @@ SITEURL = 'http://localhost:8000'
 
 USE_FOLDER_AS_CATEGORY = False
 
-SUMMARY_MAX_LENGTH = 40
+SUMMARY_MAX_LENGTH = 50
 
 DESCRIPTION = 'Thoughts, ramblings, and randomness.'
 
@@ -20,7 +29,15 @@ DEFAULT_LANG = 'en'
 
 # MENUITEMS = [('About', 'pages/about')]
 
-THEME = 'attila'
+THEME = './theme'
+
+PLUGIN_PATHS = ['./plugins']
+PLUGINS = ['assets']
+
+JINJA_FILTERS = {
+    'datetimeformat': datetimeformat,
+    'tagsort': tagsort
+}
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -36,8 +53,9 @@ LINKS = (('Pelican', 'http://getpelican.com/', 'pelican-thing'),
          ('You can modify those links in your config file', '#', 'other-thing'),)
 
 # Social widget
-SOCIAL = (('twitter', 'https://twitter.com/_gdelgado'),
-          ('github', 'https://github.com/gDelgado14'))
+SOCIAL = (('Twitter', 'https://twitter.com/_gdelgado'),
+          ('GitHub', 'https://github.com/gDelgado14'),
+          ('LinkedIn', 'https://linkedin.com/in/giorgiodelgado'))
 
 DEFAULT_PAGINATION = 10
 

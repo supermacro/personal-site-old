@@ -1,18 +1,18 @@
 Title: The Market For Uniqueness
-Tags: posts
+Tags: forty-eight
 
 To most people, economics is an unappreciable subject that lies well beyond
 the realm of practicality. Admittedly, at first glance the concepts do seem
 somewhat trivial until you really dig deep into the meaning behind the
 concepts. I've actually already written twice about economic subjects that
-have tied to reality ([link 1](http://giorgiodelgado.ca/wars-broken-window/
-"War's Broken Window"), [link 2](http://giorgiodelgado.ca/diminishing-
+have tied to reality ([link 1](https://giorgiodelgado.ca/wars-broken-window/
+"War's Broken Window"), [link 2](https://giorgiodelgado.ca/diminishing-
 marginal-returns-to-life/ "Diminishing Marginal Returns To Life")), and there
 are many books that use economics to simplify the complexity in life
-([Soccernomics](http://www.amazon.ca/Soccernomics-Australia-Turkey-Iraq-Are-
-Destined/dp/1568584253), [Freakonomics](http://www.amazon.com/Freakonomics-
+([Soccernomics](https://www.amazon.ca/Soccernomics-Australia-Turkey-Iraq-Are-
+Destined/dp/1568584253), [Freakonomics](https://www.amazon.com/Freakonomics-
 Economist-Explores-Hidden-Everything/dp/0060731338), and
-[Superfreakonomics](http://www.amazon.com/Super-Freakonomics-Patriotic-
+[Superfreakonomics](https://www.amazon.com/Super-Freakonomics-Patriotic-
 Prostitutes-Insurance/dp/B008SLBARA) to name just a few).
 
 
@@ -31,8 +31,8 @@ with everyone we know, with this model.
 
 
 [![Supply Demand Function in a Perfectly Competitive
-Market](http://giorgiodelgado.ca/wp-
-content/uploads/2014/04/demand_supply_excess_demand1.gif)](http://giorgiodelgado.ca
+Market](https://giorgiodelgado.ca/wp-
+content/uploads/2014/04/demand_supply_excess_demand1.gif)](https://giorgiodelgado.ca
 /wp-content/uploads/2014/04/demand_supply_excess_demand1.gif)
 
 

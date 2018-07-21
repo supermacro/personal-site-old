@@ -1,5 +1,5 @@
 Title: A Note on Guidance Councillors
-Tags: posts
+Tags: forty-eight
 
 As someone not originally from Canada, many things stood out to me as a child.
 One of those things was the lack of pressure that adults place on kids. There

@@ -1,5 +1,5 @@
 Title: Mindful Meditation
-Tags: posts
+Tags: forty-eight
 
 Meditation is something I definitely don't do enough of. On the odd occasion
 in which I have given it an honest attempt, I always come out with a refreshed

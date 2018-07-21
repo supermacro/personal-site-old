@@ -1,5 +1,5 @@
 Title: Statistical Illusions
-Tags: posts, forty-eight
+Tags: forty-eight
 
 As humans, we tend to be bad statisticians. This may not seem like a
 significant issue at first, but what people don't realize is that life's

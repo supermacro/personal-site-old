@@ -1,5 +1,5 @@
 Title: Automation Is Nigh
-Tags: posts
+Tags: forty-eight
 
 As I learn more about VBA programming, I can't help but think that at some
 point in the near future life will be completely automated. So much so that

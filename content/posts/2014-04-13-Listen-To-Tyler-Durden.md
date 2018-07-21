@@ -1,7 +1,7 @@
 Title: Listen To Tyler Durden
-Tags: posts
+Tags: forty-eight
 
-http://www.youtube.com/watch?v=tPPvkhGZT7Y
+https://www.youtube.com/watch?v=tPPvkhGZT7Y
 
 
 
@@ -13,7 +13,7 @@ objects as opposed to those things which bring to us the most value in life.
 
 
 I recently listened to [Earl Nightingale's "The Strangest
-Secret"](http://www.youtube.com/watch?v=8XofumNQMqA), and it he said something
+Secret"](https://www.youtube.com/watch?v=8XofumNQMqA), and it he said something
 that I couldn't agree with more:
 
 > The problem is that our mind comes as standard equipment at birth. It's

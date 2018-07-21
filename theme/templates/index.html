@@ -1,0 +1,25 @@
+{% import 'macros.html' as m %}
+
+{% extends "base.html" %}
+
+{% block content %}
+<div class="latest-article">
+    <h3>Latest Post:</h2>
+    
+    <h2 class="article-title">
+        <a href="{{ articles[0].url }}#title">
+            {{ articles[0].title }}
+        </a>
+    </h2>
+
+    <div class="article-meta">
+        {{ articles[0].date | datetimeformat }} in {{ m.tag_link(articles[0].tags[0]) }}
+    </div>
+    
+    <p>
+        {{ articles[0].summary | striptags }}
+    </p>
+
+    <a class="article-link" href="{{ articles[0].url }}#title">Continue Reading ...</a>
+</div>
+{% endblock %}

@@ -1,5 +1,5 @@
 Title: The Golden Rule
-Tags: posts
+Tags: forty-eight
 
 Admittedly, last night's partying in downtown Toronto
 ([Pravda](http://www.pravdavodkabar.com/) was the location of choice, check it

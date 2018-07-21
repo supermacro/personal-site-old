@@ -1,5 +1,5 @@
 Title: Self Teaching
-Tags: posts
+Tags: forty-eight
 
 After I wrote my piece on [disruptive innovation](http://giorgiodelgado.ca
 /exploiting-disruptive-innovation.html "Exploiting Disruptive Innovation"), I
