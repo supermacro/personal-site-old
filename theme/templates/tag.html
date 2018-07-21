@@ -1,5 +1,25 @@
 {% extends "base.html" %}
 
+{% block title %}{{ tag.name }} | {% endblock %}
+
 {% block content %}
-<p>yooo tag dawg</p>
-{% endblock%}
+<div class="single-tag-container">
+    <h2>{{ tag.name }}</h2>
+
+    {% if tag.name == 'forty-eight' %}
+        <p>For the four months between January and April 2014, I challenged myself to write a blog post (about anything) every 48 hours. This proved to be one of the most creative times in my life, and set the trajectory for my life as a entrepreneur, software developer, and curious geek. Below is the full, mainly unedited, set of blog posts.</p>
+    {% endif %}
+
+    <ul>
+        {% for article in articles %}
+            {% if tag.name in article.tags %}
+            <li class="article-info">
+                <a href="{{ SITEURL }}/{{ article.url }}#title">
+                        {{ article.title }} - {{ article.date | datetimeformat(abbreviate_month=True) }}
+                </a>
+            </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}

@@ -1,5 +1,5 @@
 Title: Diminishing Marginal Returns To Life
-Tags: posts
+Tags: forty-eight
 
 Staying on the topic of [idea overflow](http://giorgiodelgado.ca/information-
 overload.html "Controlling Information Overload") and

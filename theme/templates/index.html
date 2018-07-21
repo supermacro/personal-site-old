@@ -7,7 +7,7 @@
     <h3>Latest Post:</h2>
     
     <h2 class="article-title">
-        <a href="{{ articles[0].url }}">
+        <a href="{{ articles[0].url }}#title">
             {{ articles[0].title }}
         </a>
     </h2>
@@ -20,7 +20,6 @@
         {{ articles[0].summary | striptags }}
     </p>
 
-    <a class="article-link" href="{{ articles[0].url }}">Continue Reading ...</a>
+    <a class="article-link" href="{{ articles[0].url }}#title">Continue Reading ...</a>
 </div>
-
 {% endblock %}

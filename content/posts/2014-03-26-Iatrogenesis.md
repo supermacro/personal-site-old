@@ -1,5 +1,5 @@
 Title: Iatrogenesis
-Tags: posts
+Tags: forty-eight
 
 I can't say that my Health Economics online course has been a pleasant
 experience while working full time. It has, however, provided me with some

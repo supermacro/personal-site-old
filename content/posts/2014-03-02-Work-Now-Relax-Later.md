@@ -1,5 +1,5 @@
 Title: Work Now, Relax Later
-Tags: posts
+Tags: forty-eight
 
 I came across a status asking for motivation to finish an assignment as I
 guiltily scrolled through Facebook. To assist I posted this image:

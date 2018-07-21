@@ -4,12 +4,10 @@
 
 {% block content %}
     <div class="article-container">
-        <h2>{{ article.title }}</h2>
+        <h2 id="title">{{ article.title }}</h2>
         <div class="article-date">{{ article.date | datetimeformat }}</div>
         
         <div class="article-tags">
-            <img src="{{ SITEURL }}/theme/assets/tag.svg" />
-            <p>Tags: </p>
             <ul>
                 {% for tag in article.tags %}
                 <li class="tag-item">

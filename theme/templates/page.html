@@ -3,7 +3,9 @@
 {% block title %}{{ page.title }} | {% endblock %}
 
 {% block content %}
-<h2>{{ page.title }}</h2>
+<div class="page-container">
+    <h2>{{ page.title }}</h2>
 
-{{ page.content }}
+    {{ page.content }}
+</div>
 {% endblock %}

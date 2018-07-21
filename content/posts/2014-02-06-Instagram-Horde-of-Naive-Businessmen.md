@@ -1,5 +1,5 @@
 Title: Instagram = Horde of Naive "Businessmen"
-Tags: posts, forty-eight
+Tags: forty-eight
 
 
 

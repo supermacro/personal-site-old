@@ -1,5 +1,5 @@
 Title: Robinhood, The Finance Industry's Newest Innovation
-Tags: posts
+Tags: forty-eight
 
 http://vimeo.com/87163777
 

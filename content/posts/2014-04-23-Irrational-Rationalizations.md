@@ -1,5 +1,5 @@
 Title: Irrational Rationalizations
-Tags: posts
+Tags: forty-eight
 
 A friend of mine constantly battles with himself and his inability to break
 bad habits. On the one hand, he knows that every breath he takes through the
@@ -11,7 +11,7 @@ of it.
 
 
 So here lies an example of [cognitive
-dissonance](http://en.wikipedia.org/wiki/Cognitive_dissonance) \- the mental
+dissonance](https://en.wikipedia.org/wiki/Cognitive_dissonance) \- the mental
 divide caused by opposing thoughts which pull at your sanity. One would surely
 go mental if we did not do something about this polarization of the mind.
 Thankfully, we as somewhat logical beings seek one of the two following
@@ -24,7 +24,7 @@ realize that you're still causing harm to yourself.
 
 The latter is typically what we tend to do, but the goal is to try and be
 better than that. Most people will seek [confirmatory
-evidence](http://en.wikipedia.org/wiki/Confirmation_bias) in the hope of
+evidence](https://en.wikipedia.org/wiki/Confirmation_bias) in the hope of
 rationalizing their misguided actions, all in the hope of continuing what they
 internally know as something they shouldn't be doing.
 

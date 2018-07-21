@@ -1,6 +1,6 @@
 Title: Hello World
 Date: 2014-01-21
-Tags: tips, forty-eight
+Tags: forty-eight
 
 I'm really excited to get this website underway. There's lots of brainstorming going on concerning the potential of what can be done here.
 

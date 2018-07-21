@@ -1,5 +1,5 @@
 Title: Rewiring Yourself ... Again
-Tags: posts
+Tags: forty-eight
 
 I've been slacking with productivity as of late and even broke my habit of
 waking up early this past week. The problem I find with breaking newly-formed

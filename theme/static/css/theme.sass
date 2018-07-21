@@ -33,15 +33,29 @@ body
     width: 100vw
     padding-right: 15%
     padding-left: 15%
-    
+
 h1, h2, h3, h4, h5, h6
     font-family: 'Open Sans', sans-serif
 
 p
+    line-height: 1.5em
     font-family: 'Noto Serif', serif
 
 a
     text-decoration: none
+
+
+blockquote
+    border-left: $secondary-color 5px solid
+    margin-left: 0
+    padding-left: 2em
+
+    p
+        font-style: italic
+    
+ul
+    li
+        list-style-type: circle
 
 
 
@@ -76,41 +90,54 @@ a
 ///////////////////////
 // article.html
 //
-.article-date
-    font-family: 'Open Sans', sans-serif
-    margin-bottom: .7em
-
-.article-tags
-    margin-bottom: 2em
-
-    img
-        position: relative
-        top: .2em
-
-    p
-        display: inline
-        font-family: 'Open Sans', sans-serif
-        
-    ul
-        display: inline-block
-        padding: 0
-        margin: 0
-    
-        .tag-item
-            display: inline-block
-            list-style-type: none
-
 .article-container
+    .article-date
+        font-family: 'Open Sans', sans-serif
+        margin-bottom: .7em
+
+    .article-tags
+        margin-bottom: 2em
+
+        img
+            position: relative
+            top: .2em
+
+        p
+            display: inline
+            font-family: 'Open Sans', sans-serif
+            
+        ul
+            display: inline-block
+            padding: 0
+            margin: 0
+        
+            .tag-item
+                display: inline-block
+                list-style-type: none
+
     .separator
         height: 8px
         width: 100%
 
-.article-content
-    max-width: 55rem
-    line-height: 1.75rem
+    .article-content
+        margin-left: auto
+        margin-right: auto
+        max-width: 55rem
+        line-height: 1.75rem
 
-    img
-        max-width: 50%
+        a
+            color: #000
+            border-bottom: 1px solid $secondary-color
+            
+        h2
+            margin-top: 1.5em
+
+        h4
+            margin-top: 2em
+            margin-bottom: .5em
+            
+        img
+            max-width: 50%
 //
 ///////////////////////
 
@@ -137,15 +164,82 @@ a
 ///////////////////////
 
 
+    
 ///////////////////////
+// page.html
+//   
+.page-container
+
+    // FIXME: the anchor tag styles are being copy-pasted in several places :(
+    a
+        color: #000
+        border-bottom: 1px solid $secondary-color
+
+
+    ///////////////////////
 // archives.html
 // 
+.archive-heading
+    width: 50%
+    text-align: center
+    margin-left: auto
+    margin-right: auto
+
+
 .archives-container
-    display: flex
-    flex-wrap: wrap
-    justify-content: space-between
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    column-gap: 1.5em
+    row-gap: 1.5em
+
+    .tag-name
+        font-size: 1.2em
+
+        a, a:visited
+            color: #000
+
+    .tag-list
+        padding: 0
+
+        li
+            list-style-type: none
+
+        li a:visited
+            color: #000
+
+        li div
+            color: #000
+            font-family: 'Open Sans', sans-serif
+            font-size: .85em
+
+        li a:hover
+            color: #d82929
+
+        li:not(:last-child)
+            margin-bottom: 1.4em
 //
 ///////////////////////
+
+
+    
+///////////////////////
+// tag.html
+// 
+.single-tag-container
+    .article-info
+        a
+            font-family: 'Open Sans', sans-serif
+            font-size: .85em
+            color: #000
+
+        a:visited
+            color: #000
+
+    .article-info:not(:last-child)
+        margin-bottom: .7em
+//
+///////////////////////
+
 
 
 
@@ -196,3 +290,32 @@ footer
 
 //
 ///////////////////////
+
+
+
+
+@media screen and (max-width: 1000px)
+    body
+        padding-left: 10%
+        padding-right: 10%
+
+
+@media screen and (max-width: 630px)
+    body
+        padding-left: 5%
+        padding-right: 5%
+
+
+@media screen and (max-width: 600px)
+    body
+        padding-left: 2%
+        padding-right: 2%
+
+    .archives-container
+        grid-template-columns: 1fr 1fr
+
+
+@media screen and (max-width: 600px)
+    .archives-container
+        grid-template-columns: 1fr
+

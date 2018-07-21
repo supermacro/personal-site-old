@@ -1,5 +1,5 @@
 Title: Unlimit Yourself
-Tags: books posts
+Tags: forty-eight
 
 I have come to the realization that it's in our nature to limit our
 capabilities. All too often I'll hear people subtly diminishing their

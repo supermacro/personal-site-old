@@ -1,5 +1,5 @@
 Title: The Age Of Joblessness
-Tags: posts
+Tags: forty-eight
 
 Haven't been feeling too well as of late. Add a final exam coming up and the
 result is a squeezed-out blog post. I do, however, intend on writing every

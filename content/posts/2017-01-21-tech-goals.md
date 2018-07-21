@@ -1,5 +1,5 @@
 Title: Autodidact
-Tags: entrepreneurship, technology, goals
+Tags: entrepreneurship
 
 
 

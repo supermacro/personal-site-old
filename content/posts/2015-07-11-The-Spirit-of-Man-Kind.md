@@ -1,9 +1,9 @@
 Title: The Spirit of Man Kind
-Tags: books posts
+Tags: posts
 
-I'm currently reading [The First Men in the Moon](http://www.amazon.ca/HG-
+I'm currently reading [The First Men in the Moon](https://www.amazon.ca/HG-
 Wells-Classic-
-Collection-I/dp/0575095202/ref=sr_1_1?s=books&ie;=UTF8&qid;=1436635510&sr;=1-1&keywords;=hg+wells+classic),
+Collection-I/dp/0575095202),
 by H. G. Wells. If you're not into Science Fiction, any of his books will
 change your mind (the book I've linked contains 5 of his best books including
 the aforementioned) - Wells paints elaborate pictures in your mind that make

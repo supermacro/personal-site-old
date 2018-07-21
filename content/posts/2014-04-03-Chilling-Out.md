@@ -1,5 +1,5 @@
 Title: Chilling Out
-Tags: posts
+Tags: forty-eight
 
 I find it very difficult to reject the opportunity to learn something new, or
 to go out of my comfort zone to expand my horizons. the undertaking of more

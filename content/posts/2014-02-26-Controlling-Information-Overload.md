@@ -1,5 +1,5 @@
 Title: Controlling Information Overload
-Tags: posts
+Tags: forty-eight
 
 As someone who sees the value in all things, be it math, sports, reading, or
 anything obscure you can possibly think of, I often find myself struggling to

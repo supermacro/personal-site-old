@@ -1,5 +1,5 @@
 Title: Paradoxical Intention
-Tags: posts
+Tags: forty-eight
 
 Some of the articles I've written here speak on a broader level; focusing on
 the main tenets rather than the steps to reach the end point in areas such as

@@ -1,5 +1,5 @@
 Title: The Irony In Anarchy
-Tags: posts
+Tags: forty-eight
 
 In my previous post about [Venezuela's current
 condition](http://giorgiodelgado.ca/venezuela-needs-your-help.html "Venezuela

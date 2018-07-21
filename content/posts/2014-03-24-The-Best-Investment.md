@@ -1,5 +1,5 @@
 Title: The Best Investment
-Tags: books posts
+Tags: forty-eight
 
 Having finished reading a book over the weekend made me realize how much they
 impact human advancement. They serve as the telescope into the universe of

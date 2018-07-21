@@ -1,5 +1,5 @@
 Title: War's Broken Window
-Tags: posts
+Tags: forty-eight
 
 One of the most basic concepts in economics is the [Broken Window
 Fallacy](http://www.youtube.com/watch?v=erJEaFpS9ls).

@@ -8,7 +8,7 @@ import sys
 
 sys.path.append(os.curdir)
 
-from jinjafilters import datetimeformat
+from jinjafilters import datetimeformat, tagsort
 
 AUTHOR = 'Giorgio Delgado'
 SITENAME = 'Giorgio Delgado'
@@ -16,7 +16,7 @@ SITEURL = 'http://localhost:8000'
 
 USE_FOLDER_AS_CATEGORY = False
 
-SUMMARY_MAX_LENGTH = 40
+SUMMARY_MAX_LENGTH = 50
 
 DESCRIPTION = 'Thoughts, ramblings, and randomness.'
 
@@ -35,7 +35,8 @@ PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['assets']
 
 JINJA_FILTERS = {
-    'datetimeformat': datetimeformat
+    'datetimeformat': datetimeformat,
+    'tagsort': tagsort
 }
 
 # Feed generation is usually not desired when developing

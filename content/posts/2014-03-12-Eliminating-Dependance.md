@@ -1,5 +1,5 @@
 Title: Eliminating Dependance
-Tags: posts
+Tags: forty-eight
 
 One's own attachment and need for others to get things done on your behalf
 couldn't be any more counterintuitive to the concept of productivity and

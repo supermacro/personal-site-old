@@ -1,5 +1,5 @@
 Title: The Siddhartha Effect
-Tags: books posts
+Tags: forty-eight
 
 While chatting over some drinks with a good friend of mine we began comparing
 the differences behind knowledge gained through informational transfer, and

@@ -1,5 +1,5 @@
 Title: Survivorship Bias and Other Cool Stuff
-Tags: posts, forty-eight
+Tags: forty-eight
 
 I got into a discussion with a family member about the usefulness of
 university and whether it's a worthwhile investment. This family member's

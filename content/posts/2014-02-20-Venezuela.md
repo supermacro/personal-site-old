@@ -1,5 +1,5 @@
 Title: Venezuela Needs Your Help
-Tags: posts, forty-eight
+Tags: forty-eight
 
 If you already haven't heard, Venezuela is virtually at the brink of civil
 war. The tyrannous government has ruled for over a decade now with noticeable

@@ -3,16 +3,28 @@
 {% block title %}Archives | {% endblock %}
 
 {% block content %}
-<div class="archives-container">
-    {% for tag, articles in tags %}
-        <div class="tag-section">
-            <h2>{{ tag }}</h2>
-            <ul>
-                {% for article in articles | sort(reverse=True, attribute='date') %}
-                <li>{{ article.title }}</li>
-                {% endfor%}
-            </ul>
-        </div>
-    {% endfor %}
+<div>
+    <h2 class="archive-heading">Recent Posts By Topic</h2>
+    <div class="archives-container">
+        {% for tag, articles in tags | tagsort %}
+            <div class="tag-section">
+                <h3 class="tag-name">
+                    <a href="{{ SITEURL }}/tag/{{ tag }}">
+                        {{ tag }}
+                    </a>
+                </h2>
+                <ul class="tag-list">
+                    {% for article in articles | sort(reverse=True, attribute='date') %}
+                    <li>
+                        <a href="{{ article.url }}#title">
+                            <div>{{ article.title }}</div>
+                            <div>{{ article.date | datetimeformat(abbreviate_month=True) }}</div>
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endfor %}
+    </div>
 </div>
 {% endblock %}
