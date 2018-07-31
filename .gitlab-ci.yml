@@ -1,6 +1,8 @@
 image: ruby:2.5
 
 pages:
+  only:
+  - master
   script:
   - apt-get update
   - apt-get -y upgrade
