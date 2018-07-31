@@ -1,5 +1,5 @@
 Title: Values & Goals
-Tags: entrepreneurship, technology, psychology, habits
+Tags: habits
 
 
 

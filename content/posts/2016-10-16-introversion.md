@@ -1,5 +1,5 @@
 Title: Introversion
-Tags: psychology
+Tags: habits
 
 
 
