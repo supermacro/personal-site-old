@@ -66,8 +66,14 @@ function start_up(){
   $PELICAN --debug --autoreload --ignore-cache -r $INPUTDIR -o $OUTPUTDIR -s $CONFFILE $PELICANOPTS &
   pelican_pid=$!
   echo $pelican_pid > $PELICAN_PID
+
+  echo "> Sleeping for 5 seconds"
+  echo "> Waiting for pelican to process all files"
+  echo "> ... generating output directory"
+  sleep 5
+
   cd $OUTPUTDIR
-  $PY -m pelican.server $port &
+  $PY -m pelican.server $port
   srv_pid=$!
   echo $srv_pid > $SRV_PID
   cd $BASEDIR
