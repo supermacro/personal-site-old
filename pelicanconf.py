@@ -12,7 +12,7 @@ from jinjafilters import datetimeformat, tagsort
 
 AUTHOR = 'Giorgio Delgado'
 SITENAME = 'Giorgio Delgado'
-SITEURL = 'http://localhost:8000'
+SITEURL = 'http://localhost:8080'
 
 USE_FOLDER_AS_CATEGORY = False
 
