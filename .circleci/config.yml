@@ -2,13 +2,19 @@ version: 2
 jobs:
   build:
     docker: # use the docker executor type; machine and macos executors are also supported
-      - image: circleci/ruby:2.5 # the primary container, where your job's commands are run
+      - image: giorgio14/pelican:0.1.0 # the primary container, where your job's commands are run
     steps:
       - checkout # check out the code in the project directory
       - run:
-          name: Install, Build, Deploy
+          name: Deploy
           command: |
-            sudo apt-get install -y apt-utils python python-pip
-            pip install -r requirements.txt
-            gem install sass
+            wget -qO- 'https://cli.netlify.com/download/latest/linux' | tar xz
             make publish
+
+            # gzip and save to artifacts for testing
+            tar -zcvf site.tar.gz public/ && mv ./site.tar.gz /tmp/artifacts
+            
+            ./netlifyctl -A $NETLIFY_TOKEN deploy -P ./public -s $NETLIFY_SITE_ID
+
+      - store_artifacts:
+          path: /tmp/artifacts
