@@ -8,5 +8,8 @@ jobs:
       - run:
           name: Install, Build, Deploy
           command: |
-            ls
-            echo "hello world" # run the `echo` command
+            apt-get install -y apt-utils python python-pip
+            pip install -r requirements.txt
+            gem install sass
+            make publish
+            
