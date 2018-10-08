@@ -5,3 +5,6 @@ public/
 *.pid
 
 output/
+
+# circleci api token
+.circleci/token.txt
