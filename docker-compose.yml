@@ -1,0 +1,10 @@
+version: '3'
+services:
+  server:
+      build:
+        context: .
+      volumes:
+        - ./content:/blog/content
+        - ./theme:/blog/theme
+      ports:
+        - "8080:8080"
