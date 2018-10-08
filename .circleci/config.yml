@@ -6,7 +6,7 @@ jobs:
     steps:
       - checkout # check out the code in the project directory
       - run:
-        name: Install, Build, Deploy
-        command: |
-          ls
-          echo "hello world" # run the `echo` command
+          name: Install, Build, Deploy
+          command: |
+            ls
+            echo "hello world" # run the `echo` command
