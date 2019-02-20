@@ -20,6 +20,8 @@ Here are some interesting links I'd like to share:
 
 [Love](http://paulgraham.com/love.html)
 
+[Beating the Averages](http://www.paulgraham.com/avg.html)
+
 [Career Advice](http://www.thoughtcrime.org/blog/career-advice/)
 
 [There's No Speed Limit](http://sivers.org/kimo)
