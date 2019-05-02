@@ -4,6 +4,7 @@
 //
 // consider using https://github.com/JohnAlbin/normalize-scss
 @import "normalize.css"
+@import "pygment.css"
 
 // example of variable
 // $primary-color: #333
@@ -24,7 +25,7 @@ html
     box-sizing: inherit
 
 body
-    font-size: 20px
+    font-size: 16px
 
     display: grid
     grid-template-rows: 2fr 3fr 1fr
@@ -37,7 +38,7 @@ body
 h1, h2, h3, h4, h5, h6
     font-family: 'Open Sans', sans-serif
 
-p
+p, ul
     line-height: 1.5em
     font-family: 'Noto Serif', serif
 
@@ -56,6 +57,9 @@ blockquote
 ul
     li
         list-style-type: circle
+
+    li:not(:first-child)
+        margin-top: 1em
 
 
 hr
@@ -143,6 +147,16 @@ hr
             
         img
             max-width: 50%
+
+    .highlight
+        font-size: .8rem
+
+    p > code, li > code
+        background-color: #6b6b6b1a
+        padding: .2em
+        border-radius: 2px
+        color: #533afb
+
 //
 ///////////////////////
 
