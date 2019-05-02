@@ -14,6 +14,8 @@
         <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
     {% endassets %}
 
+    <link rel="prefetch" href="/{{ articles[0].url }}">
+
     <title>{% block title %}{% endblock %}{{ SITENAME }}</title>
 </head>
 <body>
