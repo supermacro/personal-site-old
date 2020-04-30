@@ -54,7 +54,7 @@ LINKS = (('Pelican', 'http://getpelican.com/', 'pelican-thing'),
 
 # Social widget
 SOCIAL = (('Twitter', 'https://twitter.com/_gdelgado'),
-          ('GitHub', 'https://github.com/gDelgado14'),
+          ('GitHub', 'https://github.com/concatmap'),
           ('LinkedIn', 'https://linkedin.com/in/giorgiodelgado'))
 
 DEFAULT_PAGINATION = 10
