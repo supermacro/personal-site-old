@@ -1,10 +1,12 @@
 Title: About
 
-I studied Economics at Wilfrid Laurier University and now I'm looking to leverage technology to help make the world a better place.
+Hi 👋! My name's Giorgio as you probably already noticed, but a lot of people call me Gio.
 
-Currently I work at [Setter](https://setter.com/) as part of the Software Engineering team.
+I studied Economics, but dropped out in my final year to start my own software company. I ended up participating in the [Next 36 program](https://www.nextcanada.com/next-36/) in 2016 and haven't looked back since. Although my company didn't succed, I came out of the experience learning A LOT, and knowing that software is where I see myself long term (although I do miss finance and economics).
 
-p.s. We're [hiring](https://angel.co/setter-home-services/jobs) ;)
+From 2016 - 2020, I worked at a lovely company called [Setter](https://setter.com/) as a full stack engineer. I can't recommend enough to young, unencumbered, folks to join startups. 
+
+Now I'm taking some time to launch a little app of mine, called ParlezVous, as well as work on some open source projects that I maintain.
 
 ---
 

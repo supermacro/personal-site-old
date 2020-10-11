@@ -1,0 +1,7 @@
+theming:
+  - avoid usage of black
+    - use off-black / shades
+
+  - inspiration
+    https://jeffzh4ng.com/
+    https://timkadlec.com/remembers/2020-04-21-the-cost-of-javascript-frameworks/
