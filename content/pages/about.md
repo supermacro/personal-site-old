@@ -2,9 +2,9 @@ Title: About
 
 Hi 👋! My name's Giorgio as you probably already noticed, but a lot of people call me Gio.
 
-I studied Economics, but dropped out in my final year to start my own software company. I ended up participating in the [Next 36 program](https://www.nextcanada.com/next-36/) in 2016 and haven't looked back since. Although my company didn't succeed, I came out of the experience learning A LOT, and knowing that software is where I see myself long term.
+I studied Economics at Wilfrid Laurier University, taught myself how to code and started a software company while in School. I ended up participating in the [Next 36 program](https://www.nextcanada.com/next-36/) in 2016 and haven't looked back since. Although my company didn't succeed, I came out of the experience learning A LOT, and knowing that software is where I see myself long term.
 
-From 2016 - 2020, I worked at a lovely company called [Setter](https://setter.com/) as a full stack engineer. I can't recommend enough to young, unencumbered, folks to join startups. 
+From 2016 - 2020, I worked at a lovely company called [Setter](https://setter.com/) as a full stack developer. I can't recommend enough to young, unencumbered, folks to join startups. 
 
 Now I'm taking some time to launch a little app of mine, called ParlezVous, as well as work on some open source projects that I maintain.
 
