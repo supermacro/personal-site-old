@@ -15,6 +15,7 @@
 // font-family: 'Open Sans', sans-serif;
 // font-family: 'Noto Serif', serif;
 
+$heading-color: #3c3c3c
 $secondary-color: #8e7dfe
 
 html
@@ -37,6 +38,7 @@ body
 
 h1, h2, h3, h4, h5, h6
     font-family: 'Open Sans', sans-serif
+    color: $heading-color
 
 p, ul
     line-height: 1.5em
@@ -178,11 +180,15 @@ hr
 // index.html
 // 
 .latest-article
+    h3
+        opacity: 0.75
+        font-size: 15px
+
     .article-title > a
-        color: #000
+        color: $heading-color
     
     .article-title > a:visited
-        color: #000
+        color: $heading-color
 
     .article-meta
         font-family: 'Open Sans', sans-serif
@@ -277,9 +283,14 @@ hr
 ///////////////////////
 // include/header.html
 //
+.header-main-container
+    display: flex
+    justify-content: center
+    
+
 .header-main > h1
     text-align: center
-    color: #000
+    color: $heading-color
     font-style: italic
     transition: color .2s
 
@@ -299,10 +310,12 @@ hr
 .header-item
     font-family: 'Open Sans', sans-serif
     font-weight: bold
-    color: #000
+    color: $heading-color
+    opacity: 0.85
+    text-transform: lowercase
 
 .header-item:visited
-    color: #000
+    color: $heading-color
 //
 ///////////////////////
 
