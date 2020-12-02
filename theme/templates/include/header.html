@@ -9,9 +9,11 @@
     <nav class="header-navigation">
         <ul>
             {% for page in pages %}
-                <li>
-                    <a class="header-item" href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a>
-                </li>
+                {% if page.title != "Newsletter Embed Hack" %}
+                    <li>
+                        <a class="header-item" href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a>
+                    </li>
+                {% endif %}
             {% endfor %}
     
             <li>

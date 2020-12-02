@@ -1,0 +1,220 @@
+<style>
+    #form-container {
+        font-family: "Open Sans", sans-serif;
+        border: 1px solid #e0dfdf;
+        width: 95%;
+        max-width: 650px;
+        padding: 30px;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #newsletter-form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    @media only screen and (min-width: 1100px) {
+        #form-container {
+            width: 60%;
+        }
+    }
+
+    @media only screen and (min-width: 800px) {
+        #form-container {
+            width: 80%;
+        }
+    }
+
+    @media only screen and (max-width: 650px) {
+        #newsletter-form {
+            flex-direction: column;
+        }
+    }
+
+    #newsletter-form > label > span,
+    #form-info {
+        color: #a5a5a5;
+        display: block;
+        font-size: 13px;
+    }
+
+    #newsletter-form > label > input {
+        background-color: rgba(200, 200, 200, 0.1);
+        border: 1px solid #e2dede;
+        border-radius: 3px;
+        height: 45px;
+        width: 300px;
+        color: #262626;
+        padding-left: 10px;
+        margin-right: 12px;
+        margin-top: 5px;
+    }
+
+    #newsletter-form > label > input:active,
+    #newsletter-form > label > input:focus {
+        border-color: #ababab;
+        outline: none;
+        transition: border-color 80ms ease-in 0s;
+    }
+
+
+    #newsletter-form > button {
+        margin-top: 18px;
+        width: 180px;
+        height: 45px;
+        border: 1px solid rgb(226, 213, 250);
+        background-color: rgb(248, 247, 251);
+        border-radius: 2px;
+        color: rgb(154, 109, 215);
+        font-weight: bold;
+    }
+
+    #newsletter-form > button:hover {
+        cursor: pointer;
+        background-color: rgb(242, 240, 248);
+        transition: background-color 150ms ease-in 0s;
+    }
+
+    @keyframes donut-spin {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    #newsletter-form #loading-donut {
+        display: inline-block;
+        position: relative;
+        top: 1px;
+        border: 4px solid rgba(0, 0, 0, 0.1);
+        border-left-color: rgb(154, 109, 215);
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        animation: donut-spin 1.2s linear infinite;
+    }
+
+    #form-info {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #form-info > .error {
+        color: #ff0000ab;
+    }
+
+    #form-info > .success {
+        color: #057005d6;
+    }
+</style>
+
+<div id="form-container">
+    <form id="newsletter-form">
+        <label>
+            <span>Your Email</span>
+            <input id="form-email-input" placeholder="einstein@math.com" type="email" />
+        </label>
+        <button id="form-submit-btn" type="submit">Submit</button>
+    </form>
+    <div id="form-info"></div>
+</div>
+
+<!-- It's a much smaller jquery alternative with the same API -->
+<script type="text/javascript" src="{{ SITEURL }}/theme/assets/zepto.min.js"></script>
+
+
+<script type="text/javascript">
+function Main () {
+    const setButtonValue = (val) => {
+        $(submitButtonSelector).empty()
+        $(submitButtonSelector).append(val)
+    }
+
+    const setLoading = () => {
+        setButtonValue('<span id="loading-donut"></span>')
+    }
+
+    const loadingFinished = () => {
+        setButtonValue('Submit')
+    }
+
+    const setFormInfo = (info, kind) => {
+        const formInfoSelector = '#form-info'
+        $(formInfoSelector).empty()
+        $(formInfoSelector).append(`<span class="${kind}">${info}</span>`)
+    }
+
+    const sendRequest = (endpoint, data, cb) => {
+        setLoading();
+
+        $.ajax({
+            type: 'POST',
+            url: endpoint,
+            data: JSON.stringify(data),
+            dataType: 'json',
+            contentType: 'application/json',
+            complete: ({ status }) => {
+                loadingFinished() 
+                cb(status)
+            },
+        })
+
+    }
+
+    const form = $('#newsletter-form');
+    const baseApiUrl = 'http://localhost:5001/newsletter-reference-737e4/us-central1/newsletterService'
+    const subscribeEndpoint = baseApiUrl + '/subscribe' 
+    const unsubscribeEndpoint = baseApiUrl + '/unsubscribe' 
+    
+    const submitButtonSelector = '#form-submit-btn'
+
+    const params = new URLSearchParams(window.location.search);
+    
+    const unsubscribeRequest = params.get('unsubemail')
+
+    // if user is being directed here to unsubscribe, then call the unsubscribe endpoint
+    if (unsubscribeRequest) { 
+        sendRequest(unsubscribeEndpoint, { email: unsubscribeRequest }, (status) => {
+
+            const wrappedInQuotes = '"' + unsubscribeRequest + '"'
+
+            if (status === 200) {
+                setFormInfo(wrappedInQuotes + ' has been unsubscribed.', 'success')
+            } else if (status === 404) {
+                setFormInfo(wrappedInQuotes + ' does not exist.', 'error')
+            } else {
+                setFormInfo('Could not unsubscribe ' + wrappedInQuotes)
+            }
+        })
+    }
+
+
+    // Handle subscribe request
+    form.submit((evt) => {
+        evt.preventDefault();
+
+        const emailRaw = $('#form-email-input').val()
+
+        sendRequest(subscribeEndpoint, { email: emailRaw }, (status) => {
+            if (status === 400) {
+                setFormInfo('Invalid Email', 'error')
+            } else if (status === 409) {
+                setFormInfo('Email Already Exists', 'error')
+            } else {
+                setFormInfo(`You're Now Subscribed!`, 'success')
+            }
+        })
+    });
+};
+
+Main();
+</script>
