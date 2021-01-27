@@ -103,8 +103,11 @@ hr
 // article.html
 //
 .article-container
-    #title
+    #title, .article-date, .article-tags
         text-align: center
+
+    #title
+        scroll-margin-top: 75px
         margin-top: 75px
         font-family: "Noto Serif"
         font-size: 2em
@@ -155,7 +158,7 @@ hr
             margin-bottom: .5em
             
         img
-            max-width: 50%
+            max-width: 100%
 
         #post-article-prompt
             text-align: center
@@ -165,6 +168,11 @@ hr
 
     .highlight
         font-size: .8rem
+
+        pre
+            background-color: #f8f5fe85
+            padding: 10px
+            border-radius: 5px
 
     p > code, li > code
         background-color: #6b6b6b1a
