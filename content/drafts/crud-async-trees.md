@@ -1,7 +1,7 @@
-Title: Adventures In Building Arbitrarily Large, Distributed and Immutable Trees 🌲
-Tags: software
-Summary: Stumbling on an interesting challenge while building ParlezVous.
-UUID: 9eb19bc6-6b2e-4648-877d-0683de1396a4
+early draft... will probably never finish this.
+
+Adventures In Building Arbitrarily Large, Distributed and Immutable Trees 🌲
+
 
 I'm working on an embeddable commenting platform called [ParlezVous](https://parlezvous.io/) focused on:
 
