@@ -6,7 +6,9 @@ I studied Economics at Wilfrid Laurier University, taught myself how to code and
 
 From 2016 - 2020, I worked at a lovely company called [Setter](https://setter.com/) as a full stack developer. I can't recommend enough to young, unencumbered, folks to join startups. 
 
-Now I'm taking some time to launch a little app of mine, called ParlezVous, as well as work on some open source projects that I maintain.
+I worked on a little app in [Elm](https://elm-lang.org/) called [ParlezVous](https://github.com/parlez-vous/) until I was convinced to join [Caribou](https://www.caribouwealth.com/) as its founding engineer.
+
+p.s. we're hiring smart folks :)
 
 ---
 
