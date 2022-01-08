@@ -3,7 +3,7 @@ Tags: software
 Summary: Handy dandy trick when you need to position the argument at other locations other than the end of your xargs command
 UUID: 65d0c5fd-d913-4974-92a3-484ba4855e13
 
-While working on the Caribou Engineering Blog website ([repo](https://github.com/getcaribou/eng-blog)), I needed to do some reshufling of the contents of a particular directory. 
+While working on the Caribou Engineering Blog website ([repo](https://github.com/getcaribou/eng-blog)), I needed to do some reshuffling of the contents of a particular directory. 
 
 The directory looked as follows:
 
