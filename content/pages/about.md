@@ -4,11 +4,11 @@ Hi 👋! My name's Giorgio as you probably already noticed, but a lot of people 
 
 I studied Economics at Wilfrid Laurier University, taught myself how to code and started a software company while in School. I ended up participating in the [Next 36 program](https://www.nextcanada.com/next-36/) in 2016 and haven't looked back since. Although my company didn't succeed, I came out of the experience learning A LOT, and knowing that software is where I see myself long term.
 
-From 2016 - 2020, I worked at a lovely company called [Setter](https://setter.com/) as a full stack developer. I can't recommend enough to young, unencumbered, folks to join startups. 
+From 2016 - 2020, I worked at a lovely company called [Setter](https://setter.com/) as a full stack developer.
 
-I worked on a little app in [Elm](https://elm-lang.org/) called [ParlezVous](https://github.com/parlez-vous/) until I was convinced to join [Caribou](https://www.caribouwealth.com/) as its founding engineer.
+I also worked on a little app on the side (written in [Elm](https://elm-lang.org/)) between 2018 - 2020 called [ParlezVous](https://github.com/parlez-vous/). Elm is such a great learning tool and great way to dive into Functional Programming! Makes programming feel quite fun compared to any other language I've used.
 
-p.s. we're hiring smart folks :)
+More recently, I was convinced to join [Caribou](https://www.caribouwealth.com/) as its founding engineer. We're [hiring](https://caribouwealth.notion.site/Careers-at-Caribou-357783b6007f4d15bae8c7b9651cebf5)!
 
 ---
 
