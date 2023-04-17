@@ -8,7 +8,7 @@ From 2016 - 2020, I worked at a lovely company called [Setter](https://setter.co
 
 I also worked on a little app on the side (written in [Elm](https://elm-lang.org/)) between 2018 - 2020 called [ParlezVous](https://github.com/parlez-vous/). Elm is such a great learning tool and great way to dive into Functional Programming! Makes programming feel quite fun compared to any other language I've used.
 
-More recently, I was convinced to join [Caribou](https://www.caribouwealth.com/) as its founding engineer. We're [hiring](https://caribouwealth.notion.site/Careers-at-Caribou-357783b6007f4d15bae8c7b9651cebf5)!
+Currently I'm the technical lead and founding engineer at [Caribou](https://www.caribouwealth.com/).
 
 ---
 
